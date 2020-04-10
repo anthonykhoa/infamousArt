@@ -1,0 +1,238 @@
+body {
+	background-color: black;
+}
+
+.logo-wrapper {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.logo {
+	width: 200px;
+}
+
+.x {
+	display: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 110px;
+}
+
+.naving {
+	font-size: 24px;
+	color: white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: bold;
+}
+
+.carousel-item {
+	height: 600px;
+	width: 600px;
+	margin: auto;
+}
+
+#my-slider {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.shop-container {
+	height: 350px;
+	align: center;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+.art-container {
+	margin-top: 50px;
+	height: 512px;
+	align: center;
+	text-align: center;
+	//background-color: #f1f3f4;
+}
+
+.art-img {
+	height: 512px;
+	width: 512px;
+}
+
+.arts {
+	padding-bottom: 50px;
+	margin-right: 400px;
+	margin-left: 400px;
+}
+
+.art-pages {
+	color: white;
+	display: inline-block;
+	margin-right: 20px; 
+}
+
+.caption-wrapper {
+	color: white;
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+
+.shop-img {
+	width: 100%;
+	height: 100%;
+}
+
+.shop {
+	margin: 100px;
+	text-align: center;
+	align: center;
+}
+
+.shop-caption {
+	margin-top: 10px;
+	word-wrap: break-word;
+	color: white;
+}
+
+.teet {
+	margin: 10px auto;
+	color: white;
+	word-wrap: break-word;
+}
+
+.art-caption {
+	color: white;
+	word-wrap: break-word;
+}
+
+.links {
+	margin-bottom: 50px;
+}
+	
+.page-number {
+	color: white;
+}
+
+.director {
+	text-align: center;
+} 
+
+.bio {
+	text-align: center;	
+}
+
+.bio-title {
+	color: white;
+	font-weight: thin;
+	margin-bottom: 30px;
+}
+	
+.about-img {
+	width: 780px;
+	height: 780px;
+	margin-bottom: 10px;
+}
+
+.previous-next {
+	width: 15%;
+	margin: auto;
+	text-align; center;
+}
+
+.ham-size {
+	font-size: 100px;
+}
+
+.dropdown-img {
+	width: 200px;
+	height: 200px;
+	margin-left: 371px;
+}
+
+.ig-pic {
+	width: 100px;
+}
+
+.tattoo-title {
+	font-size: 50px;
+	color: white;
+}
+
+.temp {
+	margin: auto;
+	text-align: center;
+	width: 1500px;
+	height: 1500px;
+}
+
+@media (max-width: 1024px) {
+	.arts {
+		margin: auto 50px; 
+	}
+
+	.art-container {
+		height: 600px;
+	}
+
+	.art-img {
+		height: 600px;
+		width: 600px;
+	}
+
+	.teet {
+		font-size: 70px;
+	}
+
+	.art-caption {
+		font-size: 35px;
+	}
+
+	.art-pages {
+		font-size: 35px;
+	}
+
+	.previous-next {
+	width: initial;
+	margin: auto;
+	text-align; center;
+	}
+	
+	.shop-container {
+		height: 600px;
+	}
+
+
+	.shop-caption {
+		font-size: 70px;
+	}
+
+	nav li {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+		
+
+	.naving {
+		font-size: 40px;
+	}
+
+	.desk {
+		margin-top: 50px;
+	}
+	
+	.ig-pic {
+		width: 150px;
+	}
+
+	/*.x {
+		display: inline;
+		text-align: center;
+	}*/
+}
